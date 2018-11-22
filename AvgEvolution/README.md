@@ -1,2 +1,2 @@
 # Data-Analysis
-![Screenshot](assets/avg.png)
+![Screenshot](../assets/avg.png)
