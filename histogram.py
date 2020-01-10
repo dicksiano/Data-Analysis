@@ -10,6 +10,7 @@ x =[]
 numbins =  # Numero de barras verticais
 n, bins, patches = ax.hist(x, numbins, color='#0504aa', edgecolor='black', linewidth=1.5, facecolor='firebrick', alpha=0.7, rwidth=0.85)
 
+plt.savefig("histograma.png", bbox_inches='tight')
 plt.show()
 
 bincenters = 0.5*(bins[1:]+bins[:-1]) # Centro de cada barr vertical do histograma
@@ -26,4 +27,5 @@ plt.grid(axis='y', alpha=0.4)
 plt.xlabel('Tempo (s)')
 plt.ylabel('Quantidade')
 
+plt.savefig("spline.png", bbox_inches='tight')
 plt.show()
